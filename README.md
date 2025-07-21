@@ -7,7 +7,7 @@ Um projeto simples em Phyton feito para praticar lógica.
     operacoes_validas = {'adição', 'multiplicação', 'subtração', 'divisão'}
 
     if operacao not in operacoes_validas:
-    print('Operação inválida.')
+    print('Operação inválida.') 
     else:
     try:
         nu1 = float(input('Digite o primeiro número: '))

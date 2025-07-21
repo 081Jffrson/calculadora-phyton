@@ -2,8 +2,6 @@
 Um projeto simples em Phyton feito para praticar lógica.
 
 operacao = input('Escolha uma operação: (adição/multiplicação/subtração/divisão): ').strip().lower()
-
-# Lista de operações válidas
 operacoes_validas = {'adição', 'multiplicação', 'subtração', 'divisão'}
 
 if operacao not in operacoes_validas:

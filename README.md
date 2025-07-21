@@ -1,12 +1,14 @@
 # calculadora-phyton
 Um projeto simples em Phyton feito para praticar lógica.
 
-operacao = input('Escolha uma operação: (adição/multiplicação/subtração/divisão): ').strip().lower()
-operacoes_validas = {'adição', 'multiplicação', 'subtração', 'divisão'}
+    operacao = input('Escolha uma operação: (adição/multiplicação/subtração/divisão): ').strip().lower()
 
-if operacao not in operacoes_validas:
- ração inváli   print('Opeda.')
-else:
+
+    operacoes_validas = {'adição', 'multiplicação', 'subtração', 'divisão'}
+
+    if operacao not in operacoes_validas:
+    print('Operação inválida.')
+    else:
     try:
         nu1 = float(input('Digite o primeiro número: '))
         nu2 = float(input('Digite o segundo número: '))
